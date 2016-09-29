@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TN7-46-mz0">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Main VC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MainVC" id="BYZ-38-t0r" customClass="ViewController" customModule="UIVisualEffectViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bridge-to-ocean" translatesAutoresizingMaskIntoConstraints="NO" id="37Y-1a-9qo">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zhe-Gj-lji">
+                                <rect key="frame" x="0.0" y="400" width="600" height="200"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wPi-Mm-sJA">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIVisualEffectView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRR-ed-Phh">
+                                            <rect key="frame" x="208" y="86" width="185" height="27"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="NRR-ed-Phh" firstAttribute="centerX" secondItem="wPi-Mm-sJA" secondAttribute="centerX" id="02t-D9-kWZ"/>
+                                        <constraint firstItem="NRR-ed-Phh" firstAttribute="centerY" secondItem="wPi-Mm-sJA" secondAttribute="centerY" id="6Nk-bh-uA4"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="rda-tn-u06"/>
+                                </constraints>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zhe-Gj-lji" secondAttribute="bottom" id="AVq-Kh-hCt"/>
+                            <constraint firstItem="Zhe-Gj-lji" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="b4F-L0-DFG"/>
+                            <constraint firstItem="37Y-1a-9qo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nZA-kj-5Ze"/>
+                            <constraint firstItem="37Y-1a-9qo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qEA-Df-nVu"/>
+                            <constraint firstAttribute="trailing" secondItem="37Y-1a-9qo" secondAttribute="trailing" id="qOB-Oz-ygt"/>
+                            <constraint firstAttribute="bottom" secondItem="37Y-1a-9qo" secondAttribute="bottom" id="y8n-Wz-iEV"/>
+                            <constraint firstAttribute="trailing" secondItem="Zhe-Gj-lji" secondAttribute="trailing" id="zvN-QH-6bO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Main VC" id="mX4-TE-uAG">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="hbM-PM-19f">
+                            <connections>
+                                <segue destination="ABU-dM-J1I" kind="show" identifier="ShowNewVC" id="z09-eR-Amd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1302" y="337"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="4Pe-at-x1o">
+            <objects>
+                <viewController storyboardIdentifier="SecondVC" id="ABU-dM-J1I" customClass="SecondViewController" customModule="UIVisualEffectViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lBM-Ee-Xk1"/>
+                        <viewControllerLayoutGuide type="bottom" id="7bk-cj-WQR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mmL-p2-tJp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CZe-uJ-l7u">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CZe-uJ-l7u" firstAttribute="top" secondItem="mmL-p2-tJp" secondAttribute="top" id="Gzx-dQ-i3K"/>
+                            <constraint firstAttribute="trailing" secondItem="CZe-uJ-l7u" secondAttribute="trailing" id="Obx-tR-1li"/>
+                            <constraint firstAttribute="bottom" secondItem="CZe-uJ-l7u" secondAttribute="bottom" id="SVJ-A2-gWO"/>
+                            <constraint firstItem="CZe-uJ-l7u" firstAttribute="leading" secondItem="mmL-p2-tJp" secondAttribute="leading" id="spZ-ia-9HT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="CZe-uJ-l7u" id="o0C-6f-XLU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aYG-0D-GgR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2066" y="337"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ebT-i1-Pwd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TN7-46-mz0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gfJ-BJ-NNq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="DIb-Yh-doY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NaK-qM-3sI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="448" y="337"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bridge-to-ocean" width="320" height="568"/>
+    </resources>
+</document>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViewControllerLifecycleDemo/SecondViewController.swift"
+            timestampString = "486493782.606921"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViewControllerLifecycleDemo/FirstViewController.swift"
+            timestampString = "486494064.914302"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "viewWillTransitionToSize(_:withTransitionCoordinator:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViewControllerLifecycleDemo/FirstViewController.swift"
+            timestampString = "486539238.376804"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "viewWillTransitionToSize(_:withTransitionCoordinator:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ViewControllerLifecycleDemo.FirstViewController.viewWillTransitionToSize (__C.CGSize, withTransitionCoordinator : __ObjC.UIViewControllerTransitionCoordinator) -&gt; ()"
+                  moduleName = "ViewControllerLifecycleDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/msm72/MEGA/Swift/Courses/STFalcon/Projects/ViewControllerLifecycleDemo/ViewControllerLifecycleDemo/FirstViewController.swift"
+                  timestampString = "486539238.381027"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "685">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ViewControllerLifecycleDemo.FirstViewController.(viewWillTransitionToSize (__C.CGSize, withTransitionCoordinator : __ObjC.UIViewControllerTransitionCoordinator) -&gt; ()).(closure #1)"
+                  moduleName = "ViewControllerLifecycleDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/msm72/MEGA/Swift/Courses/STFalcon/Projects/ViewControllerLifecycleDemo/ViewControllerLifecycleDemo/FirstViewController.swift"
+                  timestampString = "486539238.381302"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ViewControllerLifecycleDemo.FirstViewController.(viewWillTransitionToSize (__C.CGSize, withTransitionCoordinator : __ObjC.UIViewControllerTransitionCoordinator) -&gt; ()).(closure #2)"
+                  moduleName = "ViewControllerLifecycleDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/msm72/MEGA/Swift/Courses/STFalcon/Projects/ViewControllerLifecycleDemo/ViewControllerLifecycleDemo/FirstViewController.swift"
+                  timestampString = "486539238.381544"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ViewControllerLifecycleDemo/FirstViewController.swift"
+            timestampString = "486539239.195374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "viewWillTransitionToSize(_:withTransitionCoordinator:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ViewControllerLifecycleDemo.FirstViewController.viewWillTransitionToSize (__C.CGSize, withTransitionCoordinator : __ObjC.UIViewControllerTransitionCoordinator) -&gt; ()"
+                  moduleName = "ViewControllerLifecycleDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/msm72/MEGA/Swift/Courses/STFalcon/Projects/ViewControllerLifecycleDemo/ViewControllerLifecycleDemo/FirstViewController.swift"
+                  timestampString = "486539239.198395"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "875">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ViewControllerLifecycleDemo.FirstViewController.(viewWillTransitionToSize (__C.CGSize, withTransitionCoordinator : __ObjC.UIViewControllerTransitionCoordinator) -&gt; ()).(closure #2)"
+                  moduleName = "ViewControllerLifecycleDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/msm72/MEGA/Swift/Courses/STFalcon/Projects/ViewControllerLifecycleDemo/ViewControllerLifecycleDemo/FirstViewController.swift"
+                  timestampString = "486539239.198679"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

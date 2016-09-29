@@ -1,0 +1,91 @@
+//: # Lesson Plan (План занятия)
+//:
+/*:
+ 1. **Lesson 2.1. Basic Operators**
+    1. Basic Operators (Базовые операторы)
+    2. Terminology (Терминология)
+    3. Assignment Operator (Оператор присваивания)
+    4. Arithmetic Operators (Арифметические операторы)
+        1. Remainder Operator (Оператор целочисленного деления)
+        2. Floating-Point Remainder Calculations (Вычисления целочисленного деления с числами с плавающей запятой)
+        3. Unary Minus Operator (Оператор унарного минуса)
+        4. Unary Plus Operator (Оператор унарного плюса)
+    5. Compound Assignment Operators (Cоставные операторы присваивания)
+    6. Comparison Operators (Операторы сравнения)
+    7. Ternary Conditional Operator (Тернарный условный оператор)
+    8. Nil Coalescing Operator (Оператор объединения по nil)
+    9. Range Operators (Операторы диапазона)
+        1. Closed Range Operator (Оператор закрытого диапазона)
+        2. Half-Open Range Operator (Оператор полуоткрытого диапазона)
+    10. Logical Operators (Логические операторы)
+        1. Logical NOT Operator (Оператор логического НЕ)
+        2. Logical AND Operator (Оператор логического И)
+        3. Logical OR Operator (Оператор логического ИЛИ)
+        4. Combining Logical Operators (Комбинирование логических операторов)
+        5. Explicit Parentheses (Явное указание круглых скобок)
+ 
+ 
+ 2. **Lesson 2.2. Strings and Characters**
+    1. Strings and Characters (Строки и символы)
+    2. String Literals (Строковые литералы)
+    3. Initializing an Empty String (Инициализация пустых строк)
+    4. String Mutability (Изменчивость строк)
+    5. Strings Are Value Types (Строка является типом значения)
+    6. Working with Characters (Работа с символами)
+    7. Concatenating Strings and Characters (Конкатенация строк и символов)
+    8. String Interpolation (Интерполяция строк)
+    9. Unicode (Юникод)
+        1. Unicode Scalars (Скалярные величины Юникода)
+        2. Special Characters in String Literals (Специальные символы в строковых литералах)
+        3. Extended Grapheme Clusters (Расширенные кластеры графем)
+    10. Counting Characters (Подсчет символов)
+    11. Accessing and Modifying a String (Доступ и изменение строки)
+        1. String Indices (Индексы строки)
+        2. Inserting and Removing (Добавление и удаление)
+    12. Comparing Strings (Сравнение строк)
+        1. String and Character Equality (Равенство строк и символов)
+    13. Unicode Representations of Strings (Отображение строк Юникода)
+        1. UTF-8 Representation (Отображение UTF-8)
+        2. UTF-16 Representation (Отображение UTF-16)
+        3. Unicode Scalar Representation (Отображение скалярных величин Юникода)
+ 
+ 
+ 3. **Lesson 2.3. Collection Types. Arrays**
+    1. Collection Types (Типы коллекций)
+    2. Mutability of Collections (Изменчивость коллекций)
+    3. Arrays (Массивы)
+        1. Array Type Shorthand Syntax (Сокращённый синтаксис массивов)
+        2. Creating an Empty Array (Создание пустого массива)
+        3. Creating an Array with a Default Value (Создание массива со значением по умолчанию)
+        4. Creating an Array by Adding Two Arrays Together (Создание массива путем сложения двух массивов)
+        5. Creating an Array with an Array Literal (Литералы массива)
+        6. Accessing and Modifying an Array (Доступ и изменение массива)
+        7. Iterating Over an Array (Итерация по массиву)
+ 
+ 
+ 4. **Lesson 2.4. Collection Types. Sets**
+    1. Collection Types (Типы коллекций)
+    2. Mutability of Collections (Изменчивость коллекций)
+    3. Sets (Множества)
+        1. Hash Values for Set Types (Хеш значения для типа Set)
+        2. Set Type Syntax (Синтаксис типа множества)
+        3. Creating and Initializing an Empty Set (Создание и инициалиазация пустого множества)
+        4. Creating a Set with an Array Literal (Создание множества при помощи литерала массива)
+        5. Accessing and Modifying a Set (Доступ и изменение множества)
+        6. Iterating Over a Set (Итерация по множеству)
+    4. Performing Set Operations (Выполнение операций Set)
+        1. Fundamental Set Operations (Базовые операции Set)
+        2. Set Membership and Equality (Взаимосвязь и равенство множеств)
+ 
+ 
+ 5. **Lesson 2.5. Collection Types. Dictionaries**
+    1. Collection Types (Типы коллекций)
+    2. Mutability of Collections (Изменчивость коллекций)
+    3. Dictionaries (Словари)
+        1. Dictionary Type Shorthand Syntax (Сокращенный синтаксис словаря)
+        2. Creating an Empty Dictionary (Создание пустого словаря)
+        3. Creating a Dictionary with a Dictionary Literal (Создание словаря при помощи литерала)
+        4. Accessing and Modifying a Dictionary (Доступ и изменение словаря)
+        5. Iterating Over a Dictionary (Итерация по словарю)
+ 
+ */

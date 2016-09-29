@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  LocalizationDemo
+
+  Created by msm72 on 7/31/16.
+  Copyright © 2016 msm72. All rights reserved.
+*/
+
+alertTitle = "Заголовок";
+alertMessage = "Это тестовое сообщение !!!";
+alertButtonOk = "Ok";
+
+labelTitle = "Привет, мир !";
+buttonTitle = "Показать сообщение";

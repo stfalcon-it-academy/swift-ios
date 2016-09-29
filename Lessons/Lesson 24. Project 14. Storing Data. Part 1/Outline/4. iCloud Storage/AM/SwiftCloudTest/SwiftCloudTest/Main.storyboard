@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftCloudTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iCloud Service Status:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmb-L2-kN6">
+                                <rect key="frame" x="28" y="20" width="532" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="LAP-I6-f0h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIY-07-FGQ">
+                                <rect key="frame" x="20" y="61" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="yI7-1K-udO"/>
+                                </constraints>
+                                <state key="normal" title="Save Document"/>
+                                <connections>
+                                    <action selector="onSaveDocument:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NTz-Bu-m88"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ub-rc-poF">
+                                <rect key="frame" x="20" y="111" width="560" height="469"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fIY-07-FGQ" firstAttribute="top" secondItem="jmb-L2-kN6" secondAttribute="bottom" constant="20" id="Ca8-0I-41y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1Ub-rc-poF" secondAttribute="bottom" constant="20" id="HBG-vV-7B6"/>
+                            <constraint firstItem="1Ub-rc-poF" firstAttribute="top" secondItem="fIY-07-FGQ" secondAttribute="bottom" constant="20" id="II2-UJ-0hE"/>
+                            <constraint firstAttribute="trailing" secondItem="fIY-07-FGQ" secondAttribute="trailing" constant="20" id="Is6-dT-5so"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jmb-L2-kN6" secondAttribute="trailing" constant="20" id="LYZ-65-olb"/>
+                            <constraint firstItem="fIY-07-FGQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="ONz-pY-Wcs"/>
+                            <constraint firstAttribute="trailing" secondItem="1Ub-rc-poF" secondAttribute="trailing" constant="20" id="cHw-6q-kPi"/>
+                            <constraint firstItem="jmb-L2-kN6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="n4G-6W-Jvb"/>
+                            <constraint firstItem="1Ub-rc-poF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="nKa-Aq-45q"/>
+                            <constraint firstItem="jmb-L2-kN6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="zt3-On-WwK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="documentContentView" destination="1Ub-rc-poF" id="e6U-Uw-CQa"/>
+                        <outlet property="serviceStatus" destination="jmb-L2-kN6" id="AyF-US-fwB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

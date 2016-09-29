@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="r2W-XJ-0Jw">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="rck-Yl-PUB"/>
+                                </constraints>
+                                <offsetWrapper key="searchFieldBackgroundPositionAdjustment" horizontal="0.0" vertical="10"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                            </searchBar>
+                            <webView opaque="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="B7J-nT-EXH">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="oDz-Bk-Bbf">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                                <color key="color" red="0.18694760099999999" green="0.18694760099999999" blue="0.18694760099999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="oDz-Bk-Bbf" secondAttribute="centerX" id="C5c-qn-e82"/>
+                            <constraint firstItem="r2W-XJ-0Jw" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="FIx-H9-7j8"/>
+                            <constraint firstAttribute="trailing" secondItem="r2W-XJ-0Jw" secondAttribute="trailing" id="JdH-h4-gKs"/>
+                            <constraint firstItem="B7J-nT-EXH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="N8c-wb-o4X"/>
+                            <constraint firstAttribute="trailing" secondItem="B7J-nT-EXH" secondAttribute="trailing" id="cEG-BJ-uMl"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="B7J-nT-EXH" secondAttribute="bottom" id="eW5-al-PDa"/>
+                            <constraint firstItem="B7J-nT-EXH" firstAttribute="top" secondItem="r2W-XJ-0Jw" secondAttribute="bottom" id="naM-WV-Jue"/>
+                            <constraint firstItem="r2W-XJ-0Jw" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="qUM-yX-XBb"/>
+                            <constraint firstAttribute="centerY" secondItem="oDz-Bk-Bbf" secondAttribute="centerY" id="s94-k8-GuK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="oDz-Bk-Bbf" id="tuE-BK-Eyf"/>
+                        <outlet property="searchBar" destination="r2W-XJ-0Jw" id="Bgf-p5-frR"/>
+                        <outlet property="webView" destination="B7J-nT-EXH" id="hTh-uY-4pP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="623" y="172"/>
+        </scene>
+    </scenes>
+</document>

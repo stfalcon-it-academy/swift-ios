@@ -1,0 +1,15 @@
+/* Class = "UITabBarItem"; title = "Discover"; ObjectID = "A86-ai-CPW"; */
+"A86-ai-CPW.title" = "探索";
+
+/* Class = "UINavigationItem"; title = "Discover"; ObjectID = "SZa-XJ-1Q5"; */
+"SZa-XJ-1Q5.title" = "探索";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "TeE-m9-Xu4"; */
+"TeE-m9-Xu4.text" = "類別";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "brA-Fv-IgI"; */
+"brA-Fv-IgI.text" = "地址";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "nHE-4K-YZL"; */
+"nHE-4K-YZL.text" = "名字";
+

@@ -1,0 +1,57 @@
+/* Class = "UITextField"; placeholder = "Restaurant Phone Number"; ObjectID = "0Qh-qm-kX9"; */
+"0Qh-qm-kX9.placeholder" = "Телефон";
+
+/* Class = "UILabel"; text = "TYPE"; ObjectID = "3cw-Hj-7xA"; */
+"3cw-Hj-7xA.text" = "ТИП";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "7GM-HC-zWD"; */
+"7GM-HC-zWD.text" = "Имя";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "Cxw-Pj-WhM"; */
+"Cxw-Pj-WhM.text" = "Тип";
+
+/* Class = "UILabel"; text = "NAME"; ObjectID = "G6B-Vy-Hlc"; */
+"G6B-Vy-Hlc.text" = "Имя";
+
+/* Class = "UILabel"; text = "You've dined here. What do you think?"; ObjectID = "IId-Be-Nz7"; */
+"IId-Be-Nz7.text" = "Вы обедали здесь. Что вы думаете?";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Mio-AI-Xr2"; */
+"Mio-AI-Xr2.title" = "Значение";
+
+/* Class = "UIButton"; normalTitle = "YES"; ObjectID = "PPa-I9-ruY"; */
+"PPa-I9-ruY.normalTitle" = "ДА";
+
+/* Class = "UILabel"; text = "HAVE YOU BEEN HERE"; ObjectID = "amt-cI-lx6"; */
+"amt-cI-lx6.text" = "你曾光顧這間店嗎？";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "bvo-QC-MKU"; */
+"bvo-QC-MKU.title" = "項目";
+
+/* Class = "UITextField"; placeholder = "Restaurant location"; ObjectID = "csv-ur-tCB"; */
+"csv-ur-tCB.placeholder" = "餐廳地址";
+
+/* Class = "UILabel"; text = "PHONE NUMBER"; ObjectID = "gKW-db-EQU"; */
+"gKW-db-EQU.text" = "電話號碼";
+
+/* Class = "UIButton"; normalTitle = "NO"; ObjectID = "gVv-mu-htt"; */
+"gVv-mu-htt.normalTitle" = "不是";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "kYX-PQ-CSy"; */
+"kYX-PQ-CSy.text" = "地址";
+
+/* Class = "UITextField"; placeholder = "Restaurant name"; ObjectID = "mxk-4c-Avb"; */
+"mxk-4c-Avb.placeholder" = "餐廳名字";
+
+/* Class = "UILabel"; text = "LOCATION"; ObjectID = "p3G-Cv-u9o"; */
+"p3G-Cv-u9o.text" = "地址";
+
+/* Class = "UITextField"; placeholder = "Restaurant type"; ObjectID = "uKs-nw-5qB"; */
+"uKs-nw-5qB.placeholder" = "餐廳類別";
+
+/* Class = "UINavigationItem"; title = "New Restaurant"; ObjectID = "vhQ-uN-D4H"; */
+"vhQ-uN-D4H.title" = "新增餐廳";
+
+/* Class = "UITabBarItem"; title = "Favorites"; ObjectID = "wYI-qv-uvg"; */
+"wYI-qv-uvg.title" = "最愛";
+

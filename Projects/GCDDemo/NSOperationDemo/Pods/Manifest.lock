@@ -1,0 +1,14 @@
+PODS:
+  - Operations (2.10.1):
+    - Operations/Standard (= 2.10.1)
+  - Operations/Standard (2.10.1)
+
+DEPENDENCIES:
+  - Operations (~> 2.10)
+
+SPEC CHECKSUMS:
+  Operations: b787ef012ec50752f6247b7f0efb7746fb8934ae
+
+PODFILE CHECKSUM: e83b7df556f8e3a3140d28529d9f0eb39b6ed748
+
+COCOAPODS: 1.0.0.beta.8

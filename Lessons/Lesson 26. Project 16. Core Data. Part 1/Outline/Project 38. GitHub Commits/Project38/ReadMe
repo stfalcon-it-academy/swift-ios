@@ -1,0 +1,25 @@
+There are four steps to implementing Core Data in any App:
+1. designing a Core Data model
+2. adding the base Core Data functionality
+3. creating objects inside Core Data:
+    1) не забыть убрать опционал (?) для непустых аттрибутов
+    2) для созданных Entities создаются 2 файла - файл объекта и файл расширение (категория). При внесении изменений в сущность при повторной генерации Entities
+       внесенные изменения коснутся только категории - пользовательские properties & methods останутся нетронутыми!
+4. operating with saved objects
+
+
+
+Термины:
+1. data model - модель данных (граф данных): определение типа хранимых данных
+2. persistent store - постоянное хранилище: хранение данных
+3. managed object context - контекст управляемого объекта: манипуляции с объектами в памяти перед внесением изменений в постоянное хранилище
+4. SQLite - база данных
+5. Core Data - СУБД
+6. predicate is a filter: you specify the criteria you want to match
+7. 
+
+
+
+Приемы:
+1. очистка проекта: Product -> Clean
+2. очистка папки проекта: Alt + Product -> Clean Build Folder...

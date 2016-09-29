@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Lesson Plan'/>
+        <page name='Classes and Structures'/>
+        <page name='Classes and Structures. Example 1'/>
+        <page name='Properties'/>
+        <page name='Properties. Example 1'/>
+        <page name='Methods'/>
+        <page name='Subscripts'/>
+        <page name='Subscripts. Example 1'/>
+        <page name='Subscripts. Example 2'/>
+        <page name='Home Work'/>
+    </pages>
+</playground>

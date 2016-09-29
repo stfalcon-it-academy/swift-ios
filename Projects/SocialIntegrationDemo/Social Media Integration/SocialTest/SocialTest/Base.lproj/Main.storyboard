@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SocialTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="eck-Pt-mJk">
+                                <rect key="frame" x="40" y="60" width="520" height="99"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPb-Sd-JQ4">
+                                        <rect key="frame" x="0.0" y="0.0" width="520" height="39"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="XFy-rj-Oru"/>
+                                        </constraints>
+                                        <state key="normal" title="Share on Facebook"/>
+                                        <connections>
+                                            <action selector="onFacebookShare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QG8-ub-2mG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izU-aU-OGv">
+                                        <rect key="frame" x="0.0" y="59" width="520" height="40"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="A8m-IZ-bwg"/>
+                                        </constraints>
+                                        <state key="normal" title="Share on Twitter"/>
+                                        <connections>
+                                            <action selector="onTwitterShare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ELr-68-a2b"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eck-Pt-mJk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="7cR-7v-3XE"/>
+                            <constraint firstAttribute="trailing" secondItem="eck-Pt-mJk" secondAttribute="trailing" constant="40" id="8MD-wC-gdf"/>
+                            <constraint firstItem="eck-Pt-mJk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RS7-S2-0ol"/>
+                            <constraint firstItem="eck-Pt-mJk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="60" id="SLQ-ul-Iyf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="445" y="327"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7612E2C01B52F4C1005604CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612E2BF1B52F4C1005604CE /* AppDelegate.swift */; };
+		7612E2C21B52F4C1005604CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612E2C11B52F4C1005604CE /* ViewController.swift */; };
+		7612E2C51B52F4C1005604CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7612E2C31B52F4C1005604CE /* Main.storyboard */; };
+		7612E2C71B52F4C1005604CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7612E2C61B52F4C1005604CE /* Images.xcassets */; };
+		7612E2CA1B52F4C1005604CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7612E2C81B52F4C1005604CE /* LaunchScreen.xib */; };
+		7612E2E01B52F9FA005604CE /* RemoteNotificationDeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612E2DF1B52F9FA005604CE /* RemoteNotificationDeepLink.swift */; };
+		7612E2E21B530546005604CE /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612E2E11B530546005604CE /* ViewControllerA.swift */; };
+		7612E2E41B530553005604CE /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612E2E31B530553005604CE /* ViewControllerB.swift */; };
+		7612E2E61B530562005604CE /* ViewControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612E2E51B530562005604CE /* ViewControllerC.swift */; };
+		B1EAC11C1D4E26EA00ED5936 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = B1EAC11B1D4E26EA00ED5936 /* ReadMe */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7612E2BA1B52F4C1005604CE /* DeepLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7612E2BE1B52F4C1005604CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7612E2BF1B52F4C1005604CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7612E2C11B52F4C1005604CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7612E2C41B52F4C1005604CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7612E2C61B52F4C1005604CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7612E2C91B52F4C1005604CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7612E2DF1B52F9FA005604CE /* RemoteNotificationDeepLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteNotificationDeepLink.swift; sourceTree = "<group>"; };
+		7612E2E11B530546005604CE /* ViewControllerA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
+		7612E2E31B530553005604CE /* ViewControllerB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		7612E2E51B530562005604CE /* ViewControllerC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerC.swift; sourceTree = "<group>"; };
+		B1EAC11B1D4E26EA00ED5936 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7612E2B71B52F4C1005604CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7612E2B11B52F4C1005604CE = {
+			isa = PBXGroup;
+			children = (
+				B1EAC11B1D4E26EA00ED5936 /* ReadMe */,
+				7612E2BC1B52F4C1005604CE /* DeepLink */,
+				7612E2BB1B52F4C1005604CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7612E2BB1B52F4C1005604CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7612E2BA1B52F4C1005604CE /* DeepLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7612E2BC1B52F4C1005604CE /* DeepLink */ = {
+			isa = PBXGroup;
+			children = (
+				7612E2BF1B52F4C1005604CE /* AppDelegate.swift */,
+				7612E2DF1B52F9FA005604CE /* RemoteNotificationDeepLink.swift */,
+				7612E2C11B52F4C1005604CE /* ViewController.swift */,
+				7612E2E11B530546005604CE /* ViewControllerA.swift */,
+				7612E2E31B530553005604CE /* ViewControllerB.swift */,
+				7612E2E51B530562005604CE /* ViewControllerC.swift */,
+				7612E2C31B52F4C1005604CE /* Main.storyboard */,
+				7612E2C61B52F4C1005604CE /* Images.xcassets */,
+				7612E2C81B52F4C1005604CE /* LaunchScreen.xib */,
+				7612E2BD1B52F4C1005604CE /* Supporting Files */,
+			);
+			path = DeepLink;
+			sourceTree = "<group>";
+		};
+		7612E2BD1B52F4C1005604CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7612E2BE1B52F4C1005604CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7612E2B91B52F4C1005604CE /* DeepLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7612E2D91B52F4C1005604CE /* Build configuration list for PBXNativeTarget "DeepLink" */;
+			buildPhases = (
+				7612E2B61B52F4C1005604CE /* Sources */,
+				7612E2B71B52F4C1005604CE /* Frameworks */,
+				7612E2B81B52F4C1005604CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepLink;
+			productName = DeepLink;
+			productReference = 7612E2BA1B52F4C1005604CE /* DeepLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7612E2B21B52F4C1005604CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Brian Coleman";
+				TargetAttributes = {
+					7612E2B91B52F4C1005604CE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 7612E2B51B52F4C1005604CE /* Build configuration list for PBXProject "DeepLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7612E2B11B52F4C1005604CE;
+			productRefGroup = 7612E2BB1B52F4C1005604CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7612E2B91B52F4C1005604CE /* DeepLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7612E2B81B52F4C1005604CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EAC11C1D4E26EA00ED5936 /* ReadMe in Resources */,
+				7612E2C51B52F4C1005604CE /* Main.storyboard in Resources */,
+				7612E2CA1B52F4C1005604CE /* LaunchScreen.xib in Resources */,
+				7612E2C71B52F4C1005604CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7612E2B61B52F4C1005604CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7612E2E61B530562005604CE /* ViewControllerC.swift in Sources */,
+				7612E2E21B530546005604CE /* ViewControllerA.swift in Sources */,
+				7612E2C21B52F4C1005604CE /* ViewController.swift in Sources */,
+				7612E2E41B530553005604CE /* ViewControllerB.swift in Sources */,
+				7612E2E01B52F9FA005604CE /* RemoteNotificationDeepLink.swift in Sources */,
+				7612E2C01B52F4C1005604CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7612E2C31B52F4C1005604CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7612E2C41B52F4C1005604CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7612E2C81B52F4C1005604CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7612E2C91B52F4C1005604CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7612E2D71B52F4C1005604CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7612E2D81B52F4C1005604CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7612E2DA1B52F4C1005604CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeepLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.briancoleman.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7612E2DB1B52F4C1005604CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeepLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.briancoleman.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7612E2B51B52F4C1005604CE /* Build configuration list for PBXProject "DeepLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7612E2D71B52F4C1005604CE /* Debug */,
+				7612E2D81B52F4C1005604CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7612E2D91B52F4C1005604CE /* Build configuration list for PBXNativeTarget "DeepLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7612E2DA1B52F4C1005604CE /* Debug */,
+				7612E2DB1B52F4C1005604CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7612E2B21B52F4C1005604CE /* Project object */;
+}

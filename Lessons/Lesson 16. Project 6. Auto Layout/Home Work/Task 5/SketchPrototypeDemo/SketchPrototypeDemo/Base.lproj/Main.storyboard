@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="fJt-kJ-2L3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" id="BYZ-38-t0r" customClass="HomeViewController" customModule="SketchPrototypeDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-screen" translatesAutoresizingMaskIntoConstraints="NO" id="zo2-kd-P5j">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Qm-Ak-0Qz" userLabel="Add Button" customClass="CustomButton" customModule="SketchPrototypeDemo" customModuleProvider="target">
+                                <rect key="frame" x="374" y="80" width="40" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="WWT-nb-AS3"/>
+                                    <constraint firstAttribute="width" constant="40" id="XlT-25-Y5V"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="SZF-ks-Zqb" kind="modal" identifier="ShowAddVC" id="x86-09-qq8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jb1-We-6Om" userLabel="More Button" customClass="CustomButton" customModule="SketchPrototypeDemo" customModuleProvider="target">
+                                <rect key="frame" x="304" y="636" width="110" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="tIV-46-pVk"/>
+                                    <constraint firstAttribute="width" constant="110" id="yOS-IS-HYm"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="dnj-uj-Yhq" kind="modal" identifier="ShowAboutVC" modalTransitionStyle="crossDissolve" id="et9-UJ-rxp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6Q-tG-Qsk" userLabel="Table Button" customClass="CustomButton" customModule="SketchPrototypeDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="150" width="414" height="476"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="6wT-Lt-ZXO" kind="push" identifier="ShowDetailVC" id="iuA-q8-H9a"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zo2-kd-P5j" secondAttribute="bottom" id="2w4-OH-H1y"/>
+                            <constraint firstItem="4Qm-Ak-0Qz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="80" id="ChA-IQ-THJ"/>
+                            <constraint firstItem="zo2-kd-P5j" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KIo-ts-Rnc"/>
+                            <constraint firstAttribute="trailing" secondItem="4Qm-Ak-0Qz" secondAttribute="trailing" id="Sgb-mQ-fcu"/>
+                            <constraint firstItem="jb1-We-6Om" firstAttribute="top" secondItem="x6Q-tG-Qsk" secondAttribute="bottom" constant="10" id="Umr-EK-5tb"/>
+                            <constraint firstItem="zo2-kd-P5j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Yqa-ss-sVE"/>
+                            <constraint firstAttribute="trailing" secondItem="x6Q-tG-Qsk" secondAttribute="trailing" id="bT2-4Y-bTg"/>
+                            <constraint firstItem="x6Q-tG-Qsk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="esf-hW-LJd"/>
+                            <constraint firstAttribute="trailing" secondItem="jb1-We-6Om" secondAttribute="trailing" id="fU5-WI-IEK"/>
+                            <constraint firstItem="x6Q-tG-Qsk" firstAttribute="top" secondItem="4Qm-Ak-0Qz" secondAttribute="bottom" constant="10" id="kaZ-mq-ZmX"/>
+                            <constraint firstAttribute="trailing" secondItem="zo2-kd-P5j" secondAttribute="trailing" id="uVK-10-3aV"/>
+                            <constraint firstAttribute="bottom" secondItem="jb1-We-6Om" secondAttribute="bottom" id="ycr-tR-F3E"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="EKa-9D-DA6"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1109.8666666666666" y="319.02666666666664"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="KEb-Dn-8O2">
+            <objects>
+                <navigationController storyboardIdentifier="HomeNC" automaticallyAdjustsScrollViewInsets="NO" id="fJt-kJ-2L3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="VDn-7C-Yh7"/>
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LnT-Cc-KLp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="9pc-Xo-xbN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cf7-I0-Mds" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="560" y="319"/>
+        </scene>
+        <!--AddVC-->
+        <scene sceneID="EEw-Db-SoJ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="AddVC" storyboardName="Add" referencedIdentifier="AddVC" id="SZF-ks-Zqb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IFm-ue-5HD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1482" y="319"/>
+        </scene>
+        <!--DetailVC-->
+        <scene sceneID="AZY-ys-AgR">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="DetailVC" storyboardName="Detail" referencedIdentifier="DetailVC" id="6wT-Lt-ZXO" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="sgc-oT-1dN"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fhd-3f-KVz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1487.5" y="270"/>
+        </scene>
+        <!--AboutVC-->
+        <scene sceneID="1Pv-ST-dgA">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="AboutVC" storyboardName="About" referencedIdentifier="AboutVC" id="dnj-uj-Yhq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I0l-aY-Ew1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1488" y="370"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home-screen" width="320" height="568"/>
+    </resources>
+</document>

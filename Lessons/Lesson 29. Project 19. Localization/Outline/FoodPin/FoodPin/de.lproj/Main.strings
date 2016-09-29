@@ -1,0 +1,51 @@
+/* Class = "UITextField"; placeholder = "Restaurant Phone Number"; ObjectID = "0Qh-qm-kX9"; */
+"0Qh-qm-kX9.placeholder" = "Restaurant Telefon";
+
+/* Class = "UILabel"; text = "TYPE"; ObjectID = "3cw-Hj-7xA"; */
+"3cw-Hj-7xA.text" = "ART";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "7GM-HC-zWD"; */
+"7GM-HC-zWD.text" = "Name";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "Cxw-Pj-WhM"; */
+"Cxw-Pj-WhM.text" = "Art";
+
+/* Class = "UILabel"; text = "NAME"; ObjectID = "G6B-Vy-Hlc"; */
+"G6B-Vy-Hlc.text" = "NAME";
+
+/* Class = "UILabel"; text = "You've dined here. What do you think?"; ObjectID = "IId-Be-Nz7"; */
+"IId-Be-Nz7.text" = "Sie auch hier zu Abend gegessen. Was denken Sie?";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Mio-AI-Xr2"; */
+"Mio-AI-Xr2.title" = "Posten";
+
+/* Class = "UIButton"; normalTitle = "YES"; ObjectID = "PPa-I9-ruY"; */
+"PPa-I9-ruY.normalTitle" = "JA";
+
+/* Class = "UILabel"; text = "HAVE YOU BEEN HERE"; ObjectID = "amt-cI-lx6"; */
+"amt-cI-lx6.text" = "WARST DU HIER";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "bvo-QC-MKU"; */
+"bvo-QC-MKU.title" = "Posten";
+
+/* Class = "UITextField"; placeholder = "Restaurant location"; ObjectID = "csv-ur-tCB"; */
+"csv-ur-tCB.placeholder" = "Restaurant Lage";
+
+/* Class = "UILabel"; text = "PHONE NUMBER"; ObjectID = "gKW-db-EQU"; */
+"gKW-db-EQU.text" = "TELEFONNUMMER";
+
+/* Class = "UIButton"; normalTitle = "NO"; ObjectID = "gVv-mu-htt"; */
+"gVv-mu-htt.normalTitle" = "NEIN";
+
+/* Class = "UILabel"; text = "LOCATION"; ObjectID = "p3G-Cv-u9o"; */
+"p3G-Cv-u9o.text" = "Lage";
+
+/* Class = "UITextField"; placeholder = "Restaurant type"; ObjectID = "uKs-nw-5qB"; */
+"uKs-nw-5qB.placeholder" = "Restaurant type";
+
+/* Class = "UINavigationItem"; title = "New Restaurant"; ObjectID = "vhQ-uN-D4H"; */
+"vhQ-uN-D4H.title" = "neues Restaurant";
+
+/* Class = "UITabBarItem"; title = "Favorites"; ObjectID = "wYI-qv-uvg"; */
+"wYI-qv-uvg.title" = "Favoriten";
+

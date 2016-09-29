@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SettingsBundleDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="JKU-In-dfA">
+                                <rect key="frame" x="20" y="61" width="560" height="149"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="560" placeholderIntrinsicHeight="28" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="djr-2f-Nz1">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="29"/>
+                                        <segments>
+                                            <segment title="Small"/>
+                                            <segment title="Medium"/>
+                                            <segment title="Large"/>
+                                            <segment title="Extra Large"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="560" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Drink Preference" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NhM-TX-o62">
+                                        <rect key="frame" x="0.0" y="58" width="560" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wXY-p9-4zz">
+                                        <rect key="frame" x="0.0" y="118" width="560" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="491" placeholderIntrinsicHeight="21" text="Extra room for cream" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xF2-cF-SbZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="501" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" placeholderIntrinsicWidth="49" placeholderIntrinsicHeight="31" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JSF-Lj-Qar">
+                                                <rect key="frame" x="511" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="JSF-Lj-Qar" firstAttribute="leading" secondItem="xF2-cF-SbZ" secondAttribute="trailing" constant="10" id="iDZ-Ya-yFH"/>
+                                            <constraint firstAttribute="trailing" secondItem="JSF-Lj-Qar" secondAttribute="trailing" id="k1q-m6-5ml"/>
+                                            <constraint firstItem="xF2-cF-SbZ" firstAttribute="leading" secondItem="wXY-p9-4zz" secondAttribute="leading" id="mTD-Ha-SIC"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="djr-2f-Nz1" secondAttribute="trailing" id="3NC-C2-6I3"/>
+                                    <constraint firstItem="wXY-p9-4zz" firstAttribute="leading" secondItem="JKU-In-dfA" secondAttribute="leading" id="N5H-lS-eHH"/>
+                                    <constraint firstItem="djr-2f-Nz1" firstAttribute="leading" secondItem="JKU-In-dfA" secondAttribute="leading" id="NBY-li-rqk"/>
+                                    <constraint firstAttribute="trailing" secondItem="NhM-TX-o62" secondAttribute="trailing" id="ijA-K1-C2B"/>
+                                    <constraint firstAttribute="trailing" secondItem="wXY-p9-4zz" secondAttribute="trailing" id="liy-cm-6BU"/>
+                                    <constraint firstItem="NhM-TX-o62" firstAttribute="leading" secondItem="JKU-In-dfA" secondAttribute="leading" id="qr9-Ga-RNp"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="JKU-In-dfA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BPf-eu-n2v"/>
+                            <constraint firstItem="JKU-In-dfA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="41" id="KvA-ao-ZE0"/>
+                            <constraint firstAttribute="trailing" secondItem="JKU-In-dfA" secondAttribute="trailing" constant="20" id="O45-D9-QuI"/>
+                            <constraint firstItem="JKU-In-dfA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="ab4-3K-RXo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="drinkText" destination="NhM-TX-o62" id="h3p-WH-OOQ"/>
+                        <outlet property="roomForCream" destination="JSF-Lj-Qar" id="23q-vD-7ct"/>
+                        <outlet property="sizeSegment" destination="djr-2f-Nz1" id="qvB-5N-anc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="360" y="337"/>
+        </scene>
+    </scenes>
+</document>

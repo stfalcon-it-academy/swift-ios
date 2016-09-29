@@ -1,0 +1,15 @@
+/* Class = "UITabBarItem"; title = "Discover"; ObjectID = "A86-ai-CPW"; */
+"A86-ai-CPW.title" = "Entdecken";
+
+/* Class = "UINavigationItem"; title = "Discover"; ObjectID = "SZa-XJ-1Q5"; */
+"SZa-XJ-1Q5.title" = "Entdecken";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "TeE-m9-Xu4"; */
+"TeE-m9-Xu4.text" = "Art";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "brA-Fv-IgI"; */
+"brA-Fv-IgI.text" = "Lage";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "nHE-4K-YZL"; */
+"nHE-4K-YZL.text" = "Name";
+

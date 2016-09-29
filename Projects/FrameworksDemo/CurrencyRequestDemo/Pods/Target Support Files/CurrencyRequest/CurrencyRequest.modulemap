@@ -1,0 +1,6 @@
+framework module CurrencyRequest {
+  umbrella header "CurrencyRequest-umbrella.h"
+
+  export *
+  module * { export * }
+}

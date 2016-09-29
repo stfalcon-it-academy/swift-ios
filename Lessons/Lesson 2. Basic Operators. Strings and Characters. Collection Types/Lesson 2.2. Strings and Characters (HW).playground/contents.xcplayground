@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Strings and Characters'/>
+        <page name='String Literals'/>
+        <page name='Examples. String Literals'/>
+        <page name='Initializing an Empty String'/>
+        <page name='String Mutability'/>
+        <page name='Strings Are Value Types'/>
+        <page name='Working with Characters'/>
+        <page name='Concatenating Strings and Characters'/>
+        <page name='String Interpolation'/>
+        <page name='Unicode'/>
+        <page name='Counting Characters'/>
+        <page name='Accessing and Modifying a String'/>
+        <page name='Comparing Strings'/>
+        <page name='Unicode Representations of Strings'/>
+        <page name='Home Work'/>
+        <page name='Links'/>
+    </pages>
+</playground>

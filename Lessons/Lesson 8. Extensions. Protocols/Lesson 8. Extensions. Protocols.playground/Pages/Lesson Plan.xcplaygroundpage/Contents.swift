@@ -1,0 +1,35 @@
+/*: ## Lesson Plan (План лекции) */
+//:
+/*:
+ 1. Extensions (Расширения)
+    1. Extension Syntax (Синтаксис расширений)
+    2. Computed Properties (Вычисляемые свойства в расширениях)
+    3. Initializers (Инициализаторы в расширениях)
+    4. Methods (Методы в расширениях)
+        1. Mutating Instance Methods (Изменяющиеся методы экземпляра)
+    5. Subscripts (Сабскрипты в расширениях)
+    6. Nested Types (Вложенные типы в расширениях)
+ 
+ 
+ 2. Protocols (Протоколы)
+    1. Protocol Syntax (Синтаксис протокола)
+    2. Property Requirements (Требуемые свойства)
+    3. Method Requirements (Требуемые методы)
+    4. Mutating Method Requirements (Требуемые изменяющие методы)
+    5. Initializer Requirements (Требуемые инициализаторы)
+        1. Class Implementations of Protocol Initializer Requirements (Реализация класса соответствующему протоколу с требованием инициализатора)
+        2. Failable Initializer Requirements (Требуемые проваливающиеся инициализаторы)
+    6. Protocols as Types (Протоколы как типы)
+    7. Delegation (Делегирование)
+    8. Adding Protocol Conformance with an Extension (Добавление соответствия протоколу через расширение)
+        1. Declaring Protocol Adoption with an Extension (Принятие протокола через расширение)
+    9. Collections of Protocol Types (Коллекции типов протокола)
+    10. Protocol Inheritance (Наследование протокола)
+    11. Class-Only Protocols (Классовые протоколы)
+    12. Protocol Composition (Композиция протоколов)
+    13. Checking for Protocol Conformance (Проверка соответствия протоколу)
+    14. Optional Protocol Requirements (Опциональные требования протокола)
+    15. Protocol Extensions (Расширения протоколов)
+        1. Providing Default Implementations (Обеспечение реализации по умолчанию (дефолтной реализации))
+        2. Adding Constraints to Protocol Extensions (Добавление ограничений к расширениям протоколов)
+ */

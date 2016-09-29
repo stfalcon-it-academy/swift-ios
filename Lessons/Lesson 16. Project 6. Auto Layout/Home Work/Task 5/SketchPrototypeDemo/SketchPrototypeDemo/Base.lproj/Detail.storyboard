@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Detail View Controller-->
+        <scene sceneID="JZ0-2Y-CB3">
+            <objects>
+                <viewController storyboardIdentifier="DetailVC" id="zHT-0d-rnc" customClass="DetailViewController" customModule="SketchPrototypeDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AGA-9U-fr9"/>
+                        <viewControllerLayoutGuide type="bottom" id="0k5-56-vm5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="If8-Ne-usH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detail-screen" translatesAutoresizingMaskIntoConstraints="NO" id="hAp-Wg-D5b">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLf-aB-d9t" userLabel="Back Button" customClass="CustomButton" customModule="SketchPrototypeDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="40" width="50" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="HDA-ue-zuc"/>
+                                    <constraint firstAttribute="height" constant="80" id="cHX-Uu-UxF"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="handlerBackButtonTap:" destination="zHT-0d-rnc" eventType="touchUpInside" id="QO5-yy-ZSN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cH6-yG-whG" userLabel="Map Button" customClass="CustomButton" customModule="SketchPrototypeDemo" customModuleProvider="target">
+                                <rect key="frame" x="304" y="501" width="110" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="C4h-Tw-MtA"/>
+                                    <constraint firstAttribute="width" constant="110" id="Rby-7r-tB1"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="VV0-d7-s7Z" kind="push" identifier="ShowMapVC" id="w2o-IV-St7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="140" placeholderIntrinsicHeight="80" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IN-hH-ml2" userLabel="Rate Button" customClass="CustomButton" customModule="SketchPrototypeDemo" customModuleProvider="target">
+                                <rect key="frame" x="254" y="656" width="90" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="AHM-Dr-wso"/>
+                                    <constraint firstAttribute="height" constant="80" id="Kwf-Z2-ix0"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="5xE-T2-9PB" kind="modal" identifier="ShowRateVC" id="lKn-32-ceH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="136" placeholderIntrinsicHeight="80" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDm-0H-Aj4" userLabel="Share Button" customClass="CustomButton" customModule="SketchPrototypeDemo" customModuleProvider="target">
+                                <rect key="frame" x="100" y="656" width="71" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="71" id="UaS-nH-Yxf"/>
+                                    <constraint firstAttribute="height" constant="80" id="iCN-06-tWM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Jte-8D-3dg" kind="modal" identifier="ShowShareVC" id="U6H-KC-k5s"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cH6-yG-whG" secondAttribute="trailing" id="3j7-Ht-H4k"/>
+                            <constraint firstItem="hAp-Wg-D5b" firstAttribute="top" secondItem="If8-Ne-usH" secondAttribute="top" id="5BU-jf-zIb"/>
+                            <constraint firstAttribute="trailing" secondItem="6IN-hH-ml2" secondAttribute="trailing" constant="70" id="El5-D4-0xY"/>
+                            <constraint firstAttribute="trailing" secondItem="hAp-Wg-D5b" secondAttribute="trailing" id="S51-yC-uaX"/>
+                            <constraint firstItem="gLf-aB-d9t" firstAttribute="leading" secondItem="If8-Ne-usH" secondAttribute="leading" id="V35-cc-DnH"/>
+                            <constraint firstAttribute="bottom" secondItem="kDm-0H-Aj4" secondAttribute="bottom" id="WsY-ns-sOo"/>
+                            <constraint firstAttribute="bottom" secondItem="hAp-Wg-D5b" secondAttribute="bottom" id="acZ-Sh-elv"/>
+                            <constraint firstItem="gLf-aB-d9t" firstAttribute="top" secondItem="If8-Ne-usH" secondAttribute="top" constant="40" id="aez-6r-Rji"/>
+                            <constraint firstAttribute="bottom" secondItem="6IN-hH-ml2" secondAttribute="bottom" id="apa-tf-cBI"/>
+                            <constraint firstItem="6IN-hH-ml2" firstAttribute="top" secondItem="cH6-yG-whG" secondAttribute="bottom" constant="85" id="hy4-zd-iO2"/>
+                            <constraint firstItem="hAp-Wg-D5b" firstAttribute="leading" secondItem="If8-Ne-usH" secondAttribute="leading" id="izt-t4-V76"/>
+                            <constraint firstItem="kDm-0H-Aj4" firstAttribute="leading" secondItem="If8-Ne-usH" secondAttribute="leading" constant="100" id="rII-Ra-bgs"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jcW-O0-EyW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1109.8666666666666" y="-408.01333333333332"/>
+        </scene>
+        <!--MapVC-->
+        <scene sceneID="CcX-iR-OBK">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="MapVC" storyboardName="Map" referencedIdentifier="MapVC" id="VV0-d7-s7Z" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Bie-j2-jOE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DWf-Mq-WmS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1490.5" y="-458"/>
+        </scene>
+        <!--ShareVC-->
+        <scene sceneID="DuY-qV-WS2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Share" referencedIdentifier="ShareVC" id="Jte-8D-3dg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I9G-R3-et9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1495" y="-409"/>
+        </scene>
+        <!--RateVC-->
+        <scene sceneID="6MR-NM-Igg">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Rate" referencedIdentifier="RateVC" id="5xE-T2-9PB" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v2j-ho-neG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1491.5" y="-360"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="detail-screen" width="320" height="568"/>
+    </resources>
+</document>

@@ -1,0 +1,25 @@
+Создайте проект, в котором на основной сцене в Storyboard разместите следующие 3 элемента:
+UITextField для ввода текста, UITextView - для ввода URL, UIImageView - для отображения картинки размером 100 х 100 px.
+Каждому элементу добавьте метку UILabel.
+
+Всю конструкцию поместите в вертикальный UIStackView с отступом между элементами 20 px и выравниванием по левому краю.
+
+Из библиотеки стандартных элементов добавьте панель инструментов (не UINavigationController), на которую поместите UIBarButtonItem c System item = .Action.
+По нажатию на эту кнопку выведите на экран панель меню UIAlertController с тремя кнопками: Share on Facebook, Share on Twitter, Cancel строго в указанной
+последовательности (сверху вниз - кнопка Cancel снизу).
+Передайте в свои посты в соц.сетях значения из визуальных элементов, расположенных на основном экране как строку текста, изображение и ссылку (URL).
+Протестируйте готовое приложение на симуляторе для iPhone & iPad.
+
+
+Ссылки:
+1. Как работать с элементами UITextField & UITextView: http://code.tutsplus.com/tutorials/ios-sdk-uitextview-uitextviewdelegate--mobile-11210
+2. UIDocumentationController: http://mallow-tech.com/2016/01/ui-documentation-controller/
+3. Creating custom share actions in iOS with Swift: https://bjartes.wordpress.com/2015/02/19/creating-custom-share-actions-in-ios-with-swift/
+4. How can I add a ActivityItem to upper activity bar in UIActivityViewController?:
+   http://stackoverflow.com/questions/19468978/how-can-i-add-a-activityitem-to-upper-activity-bar-in-uiactivityviewcontroller
+
+
+Bug:
+SLComposeViewController shows the URL as an attachment on tweet compose view.
+When it is sent, URL will be appended to the end of the post. You may even add multiple URLs, they will be still shown as attachments.
+So this is the way it should be, there is nothing to fix.

@@ -1,0 +1,10 @@
+https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson2.html#//apple_ref/doc/uid/TP40015214-CH5-SW1
+
+run Simulator: Cmd + R
+build project: Cmd + B
+close Simulator: Cmd + Q
+
+in Simulator show/hide keyboard: Cmd + K
+in Simulator rotate the device: Cmd + Left or Right Arrow
+
+status bar disappears in landscape orientation

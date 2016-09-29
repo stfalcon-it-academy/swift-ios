@@ -1,0 +1,29 @@
+<html>
+
+<head>
+<title>Deep Link Test</title>
+
+<script type="text/javascript">
+function startMyApp()
+{
+  document.location = 'DeepLink://article/B';
+  setTimeout( function()
+  {
+      if( confirm( 'You do not seem to have Your App installed, do you want to go download it now?'))
+      {
+        document.location = 'https://itunes.apple.com/app/cheapo-casino-free-casino/id637522371?ls=1&mt=8';
+      }
+  }, 300);
+ }
+</script>
+
+<body>
+<a href="DeepLink://artcle/A">DeepLink://article/A</a>
+<P>
+<a href="DeepLink://article/B">DeepLink://article/B</a>
+<P>
+<a href="DeepLink://article/C">DeepLink://article/C</a>
+<P><P>
+<a href="#" onclick="startMyApp()">onclick="startMyApp()</a>
+</body>
+</html>

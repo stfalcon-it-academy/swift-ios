@@ -1,0 +1,21 @@
+PODS:
+  - Realm (0.103.2):
+    - Realm/Headers (= 0.103.2)
+  - Realm/Headers (0.103.2)
+  - RealmSwift (0.103.2):
+    - Realm (= 0.103.2)
+  - RealmSwiftSFRestaurantData (0.4.1):
+    - RealmSwift (>= 0.96)
+
+DEPENDENCIES:
+  - RealmSwift (~> 0.98)
+  - RealmSwiftSFRestaurantData (~> 0.4)
+
+SPEC CHECKSUMS:
+  Realm: 448f0416079fe5b0ed947e7d86f3c4e1c75826cb
+  RealmSwift: 8a45cc8f02dfac093b72a3b5a01d567e27e15891
+  RealmSwiftSFRestaurantData: 4158de2ee48508592315fb70378cf964d7d87608
+
+PODFILE CHECKSUM: 13b9a5ff535883f2ee3a5eacafbd15802a50ecf3
+
+COCOAPODS: 1.0.0.beta.8

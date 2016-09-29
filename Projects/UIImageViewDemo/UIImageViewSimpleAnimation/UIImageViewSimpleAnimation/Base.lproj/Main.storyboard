@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIImageViewSimpleAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="cVy-AB-KHb">
+                                <rect key="frame" x="189" y="100" width="222" height="193"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="86" placeholderIntrinsicHeight="193" translatesAutoresizingMaskIntoConstraints="NO" id="Thb-Qi-K1I" userLabel="Normal Image View">
+                                        <rect key="frame" x="0.0" y="0.0" width="86" height="193"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="86" placeholderIntrinsicHeight="193" translatesAutoresizingMaskIntoConstraints="NO" id="36x-CA-VFG" userLabel="Slow Image View">
+                                        <rect key="frame" x="136" y="0.0" width="86" height="193"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="193" id="OjO-Es-8Tj"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="170" placeholderIntrinsicHeight="180" axis="vertical" distribution="fillProportionally" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="rV8-hm-MMp">
+                                <rect key="frame" x="215" y="333" width="170" height="180"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYe-Hc-SM6">
+                                        <rect key="frame" x="0.0" y="0.0" width="170" height="40"/>
+                                        <state key="normal" title="AnimationImages"/>
+                                        <connections>
+                                            <action selector="handlerButtonAnimationTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7RZ-UG-JQq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ebm-PV-UYE">
+                                        <rect key="frame" x="0.0" y="70" width="170" height="40"/>
+                                        <state key="normal" title="CAKeyFrameAnimation"/>
+                                        <connections>
+                                            <action selector="handlerKeyFrameButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4l9-mw-dZj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4z-Rm-KEc">
+                                        <rect key="frame" x="0.0" y="140" width="170" height="40"/>
+                                        <state key="normal" title="kCAFillModeForwards"/>
+                                        <connections>
+                                            <action selector="handlerFillModeButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FI3-dn-8Nn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cVy-AB-KHb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="7cI-Ya-fhb"/>
+                            <constraint firstItem="rV8-hm-MMp" firstAttribute="top" secondItem="cVy-AB-KHb" secondAttribute="bottom" constant="40" id="UcG-Bc-wLJ"/>
+                            <constraint firstItem="rV8-hm-MMp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="idM-p9-xb8"/>
+                            <constraint firstItem="cVy-AB-KHb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wM7-XQ-idc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="normalImageView" destination="Thb-Qi-K1I" id="haj-hf-xro"/>
+                        <outlet property="slowImageView" destination="36x-CA-VFG" id="Hbn-L8-yag"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

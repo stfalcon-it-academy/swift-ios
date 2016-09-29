@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AlertViewController_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MH3-ux-xGu">
+                                <rect key="frame" x="40" y="37" width="520" height="30"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.75294117650000003" blue="0.1960784314" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="YYr-5r-W9E"/>
+                                </constraints>
+                                <state key="normal" title="Simple Alert View">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="click_Alert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9rF-Lv-4en"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBd-c0-hNK">
+                                <rect key="frame" x="40" y="85" width="520" height="30"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.75294117650000003" blue="0.1960784314" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="j8u-M6-QhU"/>
+                                </constraints>
+                                <state key="normal" title="Destructive Alert View">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="click_Destructive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e4o-ME-Usk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSU-R2-VHY">
+                                <rect key="frame" x="40" y="133" width="520" height="30"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.75294117650000003" blue="0.1960784314" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="PlainTextStyle AlertView">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="click_PlainTextAlertVeiw:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a4u-sU-rN0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOy-Fd-EZ8">
+                                <rect key="frame" x="40" y="186" width="520" height="30"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.75294117650000003" blue="0.1960784314" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="SecureTextStyle AlertView">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="click_SecureAlertView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nc2-Od-C3W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RuF-Vt-Mrj">
+                                <rect key="frame" x="40" y="238" width="520" height="30"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.75294117650000003" blue="0.1960784314" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="LoginStyle AlertView">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="click_LoginAlertView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NdP-0F-ThJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xSU-R2-VHY" firstAttribute="trailing" secondItem="OBd-c0-hNK" secondAttribute="trailing" id="2BS-bS-Kot"/>
+                            <constraint firstItem="pOy-Fd-EZ8" firstAttribute="top" secondItem="xSU-R2-VHY" secondAttribute="bottom" constant="23" id="Eqc-Qj-76Y"/>
+                            <constraint firstItem="xSU-R2-VHY" firstAttribute="leading" secondItem="OBd-c0-hNK" secondAttribute="leading" id="I2P-Cj-pgx"/>
+                            <constraint firstItem="RuF-Vt-Mrj" firstAttribute="height" secondItem="pOy-Fd-EZ8" secondAttribute="height" id="Iop-I1-9zx"/>
+                            <constraint firstItem="pOy-Fd-EZ8" firstAttribute="trailing" secondItem="xSU-R2-VHY" secondAttribute="trailing" id="MeV-fe-1RY"/>
+                            <constraint firstItem="RuF-Vt-Mrj" firstAttribute="leading" secondItem="pOy-Fd-EZ8" secondAttribute="leading" id="PeV-fD-o2U"/>
+                            <constraint firstItem="OBd-c0-hNK" firstAttribute="trailing" secondItem="MH3-ux-xGu" secondAttribute="trailing" id="QiZ-nS-PNN"/>
+                            <constraint firstItem="xSU-R2-VHY" firstAttribute="top" secondItem="OBd-c0-hNK" secondAttribute="bottom" constant="18" id="T9g-Hb-myg"/>
+                            <constraint firstItem="MH3-ux-xGu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="VIR-75-P9j"/>
+                            <constraint firstItem="RuF-Vt-Mrj" firstAttribute="trailing" secondItem="pOy-Fd-EZ8" secondAttribute="trailing" id="VRW-1D-FCa"/>
+                            <constraint firstItem="pOy-Fd-EZ8" firstAttribute="height" secondItem="xSU-R2-VHY" secondAttribute="height" id="Wkd-4x-2G1"/>
+                            <constraint firstItem="RuF-Vt-Mrj" firstAttribute="top" secondItem="pOy-Fd-EZ8" secondAttribute="bottom" constant="22" id="cZj-lL-554"/>
+                            <constraint firstItem="OBd-c0-hNK" firstAttribute="leading" secondItem="MH3-ux-xGu" secondAttribute="leading" id="chp-T4-CDK"/>
+                            <constraint firstItem="xSU-R2-VHY" firstAttribute="height" secondItem="OBd-c0-hNK" secondAttribute="height" id="g38-S7-uhb"/>
+                            <constraint firstItem="MH3-ux-xGu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="17" id="jjn-cy-Uro"/>
+                            <constraint firstItem="pOy-Fd-EZ8" firstAttribute="leading" secondItem="xSU-R2-VHY" secondAttribute="leading" id="kZ5-0O-00C"/>
+                            <constraint firstAttribute="trailing" secondItem="MH3-ux-xGu" secondAttribute="trailing" constant="40" id="qv6-ZL-jrw"/>
+                            <constraint firstItem="OBd-c0-hNK" firstAttribute="top" secondItem="MH3-ux-xGu" secondAttribute="bottom" constant="18" id="xKN-9c-nCq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="563" y="432"/>
+        </scene>
+    </scenes>
+</document>

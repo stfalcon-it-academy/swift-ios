@@ -1,0 +1,14 @@
+PODS:
+  - SwiftSpinner (0.9.3)
+
+DEPENDENCIES:
+  - SwiftSpinner (from `..`)
+
+EXTERNAL SOURCES:
+  SwiftSpinner:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  SwiftSpinner: 3c6d08921578421a39522b20c8aa737cdf20aca3
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Basic Operators'/>
+        <page name='Terminology'/>
+        <page name='Assignment Operator'/>
+        <page name='Examples. Assignment Operator'/>
+        <page name='Arithmetic Operators'/>
+        <page name='Examples. Arithmetic Operators'/>
+        <page name='Compound Assignment Operators'/>
+        <page name='Examples. Compound Assignment Operators'/>
+        <page name='Comparison Operators'/>
+        <page name='Examples. Comparison Operators'/>
+        <page name='Ternary Conditional Operator'/>
+        <page name='Examples. Ternary Conditional Operator '/>
+        <page name='Nil Coalescing Operator'/>
+        <page name='Examples. Nil Coalescing Operator'/>
+        <page name='Range Operators'/>
+        <page name='Examples. Range Operators'/>
+        <page name='Logical Operators'/>
+        <page name='Examples. Logical Operators '/>
+        <page name='Home Work'/>
+        <page name='Links'/>
+    </pages>
+</playground>

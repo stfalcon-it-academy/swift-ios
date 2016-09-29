@@ -1,0 +1,15 @@
+However, as your app UI becomes more complex, you will find it more difficult to define the layout constraints that apply perfectly for all iOS devices.
+This is one of the reasons why Apple introduces Stack views in the latest version of Xcode and iOS (> 9.0).
+
+You can embed multiple UI objects into one by using stack views.
+Best of all, for views embedded in a stack view, you no longer need to define auto layout constraints.
+
+In each Xcode project, it includes an asset catalog (i.e. Assets.xcassets) for managing images and icons that are used by your app.
+
+As a sidenote, if you have any problem selecting the stack view, you can hold the Shift key and right click the stack view.
+Interface Builder will then show you a shortcut menu for selection.
+
+layout bar
+
+Apple's engineers recommended developers to adopt stack views first, and then only when you need to actually use raw constraints.
+

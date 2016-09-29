@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--About View Controller-->
+        <scene sceneID="3DJ-vL-HeY">
+            <objects>
+                <viewController storyboardIdentifier="AboutVC" id="b1R-Cm-G0u" customClass="AboutViewController" customModule="SketchPrototypeDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a0P-US-8e8"/>
+                        <viewControllerLayoutGuide type="bottom" id="V44-Xq-NdF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sq0-lv-HUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about-screen" translatesAutoresizingMaskIntoConstraints="NO" id="5Iy-5A-3pY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ba8-Vx-0Vs" userLabel="Favorite Button" customClass="CustomButton" customModule="SketchPrototypeDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="596" width="130" height="115"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="1RN-14-VHZ"/>
+                                    <constraint firstAttribute="height" constant="115" id="Ba8-0X-1pB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="handlerFavoriteButtonTap:" destination="b1R-Cm-G0u" eventType="touchUpInside" id="o2X-rq-w9h"/>
+                                    <segue destination="722-OY-v3G" kind="unwind" identifier="unwindToHome" unwindAction="unwindToHome:" id="Hfy-B2-PnC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5Iy-5A-3pY" secondAttribute="trailing" id="RET-ep-oXf"/>
+                            <constraint firstItem="ba8-Vx-0Vs" firstAttribute="leading" secondItem="Sq0-lv-HUQ" secondAttribute="leading" id="S2S-5Z-lzx"/>
+                            <constraint firstItem="5Iy-5A-3pY" firstAttribute="leading" secondItem="Sq0-lv-HUQ" secondAttribute="leading" id="UA7-A4-7zp"/>
+                            <constraint firstAttribute="bottom" secondItem="5Iy-5A-3pY" secondAttribute="bottom" id="UYR-mv-WM9"/>
+                            <constraint firstItem="5Iy-5A-3pY" firstAttribute="top" secondItem="Sq0-lv-HUQ" secondAttribute="top" id="ZbM-wI-3gf"/>
+                            <constraint firstAttribute="bottom" secondItem="ba8-Vx-0Vs" secondAttribute="bottom" constant="25" id="wEi-d1-Ggs"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="csc-RS-evq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="722-OY-v3G" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1109" y="1169"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="about-screen" width="320" height="568"/>
+    </resources>
+</document>

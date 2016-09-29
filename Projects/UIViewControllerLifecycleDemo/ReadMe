@@ -1,0 +1,21 @@
+"Жизненный цикл" View Controller состоит из следующих шагов:
+   1. Создается экземпляр (gets instantiated) View  в 99% случаев из storyboard
+   2. Вызывается метод awakeFromNib, который можно было бы сравнить  init
+   3. Устанавливаются  outlets
+   4. Вызывается метод viewDidLoad, который может использоваться для основных установок (setups)
+   5. Определяется геометрия
+   6. Вызываются viewWillLayoutSubviews и viewDidLayoutSubviews
+   7. Вызываются viewWillAppear и viewDidAppear
+   8. Вызываются viewWillLayoutSubviews и viewDidLayoutSubviews
+   9. Вызываются viewWillDisappear и viewDidDisappear
+  10. Если "памяти" становится мало, то вызывается didReceiveMemoryWarning
+
+
+Links:
+   1. https://docs.google.com/file/d/0B0jZOSo2e4NmVHhRVGJvT3k0cVU/edit
+   2. https://docs.google.com/file/d/0B0jZOSo2e4NmeU16S2U4MThudFU/edit
+   3. http://proswift.ru/ios-application-lifecycle-ili-zhiznennyj-cikl-ios-prilozheniya/
+   4. https://www.youtube.com/watch?list=PL_I6sRc0k_8kR5Ucmpp04KOPkodgANNCO&v=F3lHieda8mw
+   5. How to handle device rotation since iOS 8: http://pinkstone.co.uk/how-to-handle-device-rotation-since-ios-8/
+   6. Difference of UIDeviceOrientation and UIInterfaceOrientation: https://happyteamlabs.com/blog/ios-using-uideviceorientation-to-determine-orientation/
+

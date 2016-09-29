@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Repeat-while'/>
+        <page name='For-in where'/>
+        <page name='If-case Pattern Matching'/>
+        <page name='Guard'/>
+        <page name='Error Handling'/>
+        <page name='Protocol Extensions'/>
+    </pages>
+</playground>

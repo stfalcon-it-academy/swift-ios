@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="TreasureHunt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the blue bead!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tH5-aV-KPJ">
+                                <rect key="frame" x="229" y="30" width="143" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="430" image="beads" translatesAutoresizingMaskIntoConstraints="NO" id="gvo-I0-8b5">
+                                <rect key="frame" x="140" y="61" width="320" height="430"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animframe1" translatesAutoresizingMaskIntoConstraints="NO" id="QFT-Ba-z5h">
+                                <rect key="frame" x="140" y="250" width="320" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gvo-I0-8b5" firstAttribute="top" secondItem="tH5-aV-KPJ" secondAttribute="bottom" constant="10" id="21a-dz-GRE"/>
+                            <constraint firstAttribute="centerY" secondItem="QFT-Ba-z5h" secondAttribute="centerY" id="F7E-kk-MaW"/>
+                            <constraint firstItem="tH5-aV-KPJ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="bGv-n2-rE1"/>
+                            <constraint firstAttribute="centerX" secondItem="QFT-Ba-z5h" secondAttribute="centerX" id="cTy-59-g7D"/>
+                            <constraint firstAttribute="centerX" secondItem="tH5-aV-KPJ" secondAttribute="centerX" id="pkR-C7-dN3"/>
+                            <constraint firstAttribute="centerX" secondItem="gvo-I0-8b5" secondAttribute="centerX" id="srl-c2-jaf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animatedImage" destination="QFT-Ba-z5h" id="ZxD-3h-Zwh"/>
+                        <outlet property="largeImage" destination="gvo-I0-8b5" id="dyV-WO-Fvs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="animframe1" width="320" height="100"/>
+        <image name="beads" width="320" height="430"/>
+    </resources>
+</document>

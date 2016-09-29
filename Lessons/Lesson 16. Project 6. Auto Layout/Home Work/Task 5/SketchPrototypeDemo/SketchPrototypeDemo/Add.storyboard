@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Add View Controller-->
+        <scene sceneID="FrT-Uz-l62">
+            <objects>
+                <viewController storyboardIdentifier="AddVC" id="5nx-xk-5BY" customClass="AddViewController" customModule="SketchPrototypeDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l64-A4-FXP"/>
+                        <viewControllerLayoutGuide type="bottom" id="TR5-RM-fsM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="N8U-7A-UJt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-screen" translatesAutoresizingMaskIntoConstraints="NO" id="MaL-Y5-XDC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIA-6f-uap" userLabel="Cancel Button" customClass="CustomButton" customModule="SketchPrototypeDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="30" width="110" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="5qX-3y-Pzz"/>
+                                    <constraint firstAttribute="width" constant="110" id="ZTv-k8-Aqp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="RCn-eU-z8R" kind="unwind" identifier="unwindToHome" unwindAction="unwindToHome:" id="ST6-Vr-L5a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hqa-m7-u7m" userLabel="Save Button" customClass="CustomButton" customModule="SketchPrototypeDemo" customModuleProvider="target">
+                                <rect key="frame" x="324" y="20" width="90" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="0bu-bv-tW2"/>
+                                    <constraint firstAttribute="width" constant="90" id="qLA-XD-XfM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="RCn-eU-z8R" kind="unwind" identifier="unwindToHome" unwindAction="unwindToHome:" id="dd9-Br-VA7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QIA-6f-uap" firstAttribute="leading" secondItem="N8U-7A-UJt" secondAttribute="leading" id="1g5-ie-oMK"/>
+                            <constraint firstItem="Hqa-m7-u7m" firstAttribute="top" secondItem="N8U-7A-UJt" secondAttribute="top" constant="20" id="3cv-VB-D9r"/>
+                            <constraint firstAttribute="trailing" secondItem="MaL-Y5-XDC" secondAttribute="trailing" id="8wk-8Y-YPT"/>
+                            <constraint firstItem="QIA-6f-uap" firstAttribute="top" secondItem="N8U-7A-UJt" secondAttribute="top" constant="30" id="EGu-oe-9QB"/>
+                            <constraint firstAttribute="bottom" secondItem="MaL-Y5-XDC" secondAttribute="bottom" id="Erm-iA-DIU"/>
+                            <constraint firstAttribute="trailing" secondItem="Hqa-m7-u7m" secondAttribute="trailing" id="O5O-oM-Rrl"/>
+                            <constraint firstItem="MaL-Y5-XDC" firstAttribute="top" secondItem="N8U-7A-UJt" secondAttribute="top" id="O5g-rw-gfK"/>
+                            <constraint firstItem="MaL-Y5-XDC" firstAttribute="leading" secondItem="N8U-7A-UJt" secondAttribute="leading" id="lJS-o5-mjN"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oJe-2u-31T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="RCn-eU-z8R" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1522.6666666666667" y="319.02666666666664"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="add-screen" width="320" height="568"/>
+    </resources>
+</document>
